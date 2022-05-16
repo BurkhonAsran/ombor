@@ -1,0 +1,12 @@
+import site
+from django.contrib import admin
+from .models import *
+
+admin.site.register(Client)
+admin.site.register(Category)
+admin.site.register(Production)
+admin.site.register(Product)
+admin.site.register(Cash)
+admin.site.register(Order)
+admin.site.register(OrderItem)
+admin.site.register(CustomUser)
